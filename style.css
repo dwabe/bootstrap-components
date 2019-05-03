@@ -1,0 +1,17 @@
+body {
+    padding-top: 50px;
+}
+
+.container img {
+    padding: 0;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3em;
+}
+
+@media screen and (max-width: 768px) {
+    body { padding-top: 300px; }
+}
