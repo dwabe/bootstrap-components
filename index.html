@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Untitled</title>
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">Firma</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                    <li><a href="#">Link</a></li>
+                </ul>
+                <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Czego szukasz?">
+                    </div>
+                    <button type="submit" class="btn btn-default">Szukaj</button>
+                </form>
+            </div>
+        </nav>
+        
+        <section class="jumbotron container">
+            <h1>Nagłówek h1<small>z podtytułem</small></h1>
+            <button class="btn btn-primary btn-lg">Zajebiście</button>
+        </section>
+        
+        <section class="alert alert-warning alert-dismissible" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <strong>UWAGA!!! </strong>Jesteś tu na własne ryzyko!
+        </section>
+        
+        <section class="container">
+            <h2>Galeria</h2>
+            <img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1550894904-1bdb82820056?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            <img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1494321073944-c25b2270df2a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            <img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1445966838217-f418f2601b54?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+            <img class="img-responsive col-xs-12 col-sm-6" src="https://images.unsplash.com/photo-1492553578468-c989392a45be?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        </section>
+        
+        <section class="container">
+            <h2>Tabela</h2>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th>Nagłówek1</th>
+                        <th>Nagłówek2</th>
+                        <th>Nagłówek3</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                    <tr>
+                        <td>Data1</td>
+                        <td>Data2</td>
+                        <td>Data3</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        
+        <section class="container thumbnails">
+            <div class="row">
+                <div class="col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+                <div class="col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+                <div class="col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+                <div class="col-md-3"><img src="http://placehold.it/300x300" alt="" class="img-responsive img-thumbnail"></div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <div class="media">
+                <div class="media-left">
+                    <a href="#">
+                        <img class="media-object" src="http://placehold.it/100x100" alt="">
+                    </a>
+                </div>
+                <div class="media-body">
+                    <h4 class="media-heading">Media heading</h4>
+                    <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <h2>Formularz</h2>
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputEmai1">E-mail</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="E-mail">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Hasło</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Hasło">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputText1">Treść:</label>
+                    <textarea class="form-control" rows="5"></textarea>
+                    <button type="submit" class="btn btn-info">Wyślij</button>
+                </div>
+            </form>
+        </section>
+    </body>
+</html>
